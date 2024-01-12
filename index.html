@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+ <style>
+
+.button-read-more {
+            background-color: rgb(227, 176, 9);
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .button-read-more:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .button-read-more:active {
+            transform: scale(1.1);
+        }
+
+    body {
+      background-color: #222;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px #ddd;
+      animation: glow 1s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px #ddd;
+      }
+      to {
+        text-shadow: 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px #ddd, 0 0 50px #ddd;
+      }
+    }
+
+    .description {
+      max-width: 1060px;
+      margin: 0 auto;
+      font-size: 2.0rem;
+      line-height: 1.7;
+      color: #ddd;
+    }
+
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      opacity: 0.3;
+
+    }
+
+  
+ </style>
+ <title>Techy Arshdeep</title>
+</head>
+<body>
+ <h1 class="title">Techy Arshdeep</h1>
+ <div class="description">
+    <p>Welcome to the Techy Arshdeep, First of all let me Introduce myself to you guys. My name is Arshdeep Suhag, I live in Haryana. I am currently completing my School. I have intrest in Gaming and Coding and I want to become a Software Developer in my Life. I have created this website to practise and display my Coding Skills as well as Intrest in Gaming. Let's get techy together!</p>
+ </div>
+
+ </div>
+ <video class="bg-video" autoplay muted loop>
+    <source src="bgvideo.mp4" type="video/mp4">
+ </video>
+ <a href="lastpage.html" class="button-read-more">Click here to know more</a>
+</body>
+</html>
